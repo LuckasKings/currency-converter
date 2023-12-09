@@ -28,4 +28,4 @@ Contribuições são bem-vindas! Se você tiver sugestões de melhorias, correç
 Este projeto está licenciado sob a MIT License. Sinta-se à vontade para utilizar, modificar e distribuir o código conforme necessário.
 
 # Contato
-Se você tiver alguma dúvida ou precisar de suporte adicional, entre em contato através do email llcreis@hotmail.com .
+Se você tiver alguma dúvida ou precisar de suporte adicional, entre em contato através do email llcreis@hotmail.com
