@@ -27,4 +27,4 @@ Contributions are welcome! If you have suggestions for improvements, bug fixes, 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as needed.
 
 # Contact
-If you have any questions or need additional support, please contact us at llcreis@hotmail.com
+If you have any questions or need additional support, please contact me at llcreis@hotmail.com
