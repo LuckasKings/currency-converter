@@ -11,7 +11,7 @@ white = '#f5f2f5'
 
 # Initializing the main application window
 app = tk.Tk()
-app.geometry("580x400")
+app.geometry("600x300")
 app.title('Conversor de Moedas - Match')
 app['background'] = purple
 
@@ -48,7 +48,7 @@ def clean_data():
 app_title = tk.Label(app, text="Conversor de Moedas", font="Lato 20 bold", bg=purple, fg=white)
 app_title.place(x=170, y=30)
 amount_label = tk.Label(app, text="Insira o valor aqui: ", font="Lato 18 bold", bg=purple, fg=white)
-amount_label.place(x=50, y=80)
+amount_label.place(x=40, y=80)
 
 # Currency code list and sorting
 CurrencyCode_list = ['USD', 'JPY', 'BGN', 'CZK', 'DKK', 'GBP', 'HUF', 'PLN', 'RON', 'SEK', 'CHF', 'ISK',
@@ -59,17 +59,17 @@ CurrencyCode_list.sort()
 # Comboboxes and entry placement
 combobox_currency_origin = ttk.Combobox(app, values=CurrencyCode_list)
 combobox_currency_destiny = ttk.Combobox(app, values=CurrencyCode_list)
-combobox_currency_origin.place(x=340, y=140)
-combobox_currency_destiny.place(x=425, y=190)
+combobox_currency_origin.place(x=350, y=140)
+combobox_currency_destiny.place(x=445, y=190)
 
 amount_entry = tk.Entry(app)
 amount_entry.place(x=260, y=90)
 
 # Labels for currency selection
 currency_origin_label = tk.Label(app, text="Insira o código da moeda: ", font="Lato 18 bold", bg=purple, fg=white)
-currency_origin_label.place(x=50, y=130)
+currency_origin_label.place(x=40, y=130)
 currency_destiny_label = tk.Label(app, text="Insira o código da moeda destino: ", font="Lato 18 bold", bg=purple, fg=white)
-currency_destiny_label.place(x=50, y=180)
+currency_destiny_label.place(x=40, y=180)
 
 # Buttons for conversion and data clearing
 converter_button = tk.Button(app, text="Converter", command=converter)
